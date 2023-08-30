@@ -1,0 +1,38 @@
+/* POSITIONS-The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky). */
+
+/* FIXED */
+/* An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+
+A fixed element does not leave a gap in the page where it would normally have been located. */
+
+button{
+ background: red;
+ font-size: 40px;
+ color: aliceblue;
+ position: fixed;
+ top: 0 ;
+ right: 0;
+/* in this case the nav button will be fixed on the top right even when you scroll up and down the page */
+}
+div{
+ border: 3px solid red;
+ background: yellow;
+ margin-top: 40px;
+ /* position: relative; */
+}
+
+.one{
+ background: blue;
+}
+
+.two{
+ background: green;
+}
+
+.special{
+ background: orange;
+ font-size: 20px;
+ position: absolute;
+ top:50% ;
+ right: 50%;
+}
